@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+/* Header */
+
+#header {
+    background-color: #3f5f69;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Table */
+
+#customerslist {
+    width: 78%;
+    float: left;
+}
+
+#customers {
+    width: 100%;
+}
+
+#customers th {
+    background-color: royalblue;
+    color: white;
+}
+
+#customers td,
+#customers th {
+    padding: 8px;
+}
+
+#customers tr:nth-child(odd) {
+    background-color: lightsteelblue;
+}
+
+/* Right Side */
+
+#linksbar {
+    width: 20%;
+    float: right;
+}
+
+input {
+    width: 90%;
+}
+
+button {
+    background-color: royalblue;
+    color: white;
+}
+
+/* Menu */
+
+ul {
+    list-style: none;
+}
+
+li {
+    background-color: #3f5f69;
+    margin: 3px;
+    text-align: center;
+    padding: 5px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Content */
+
+#content {
+    clear: both;
+}
+
+#aboutus {
+    width: 45%;
+    float: left;
+}
+
+#titles {
+    width: 45%;
+    float: right;
+}
+
+#titles p {
+    display: inline;
+    margin: 40px;
+}
