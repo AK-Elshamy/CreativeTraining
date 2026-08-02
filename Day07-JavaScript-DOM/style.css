@@ -1,0 +1,67 @@
+body {
+
+    font-family: Arial;
+
+    background-color: whitesmoke;
+
+    text-align: center;
+
+}
+
+.container {
+
+    width: 300px;
+
+    margin: 100px auto;
+
+    padding: 20px;
+
+    border: 1px solid gray;
+
+    background-color: white;
+
+}
+
+input {
+
+    width: 90%;
+
+    padding: 8px;
+
+}
+
+button {
+
+    padding: 8px 20px;
+
+}
+
+#result {
+
+    margin-top: 20px;
+
+}
+
+#taskList {
+
+    width: 400px;
+
+    margin: 20px auto;
+
+    text-align: left;
+
+}
+
+#taskList li {
+
+    margin: 10px 0;
+
+}
+
+.done {
+
+    color: green;
+
+    text-decoration: line-through;
+
+}
