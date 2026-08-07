@@ -1,0 +1,27 @@
+body {
+
+    font-family: Arial;
+
+    text-align: center;
+
+    background-color: whitesmoke;
+
+}
+
+button {
+
+    padding: 8px 15px;
+
+    margin: 5px;
+
+    cursor: pointer;
+
+}
+
+#result {
+
+    margin-top: 20px;
+
+    color: blue;
+
+}

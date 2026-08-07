@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Image Slider</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <h1>Image Slider</h1>
+
+    <div id="slider">
+
+        <img id="image" alt="Slider Image">
+
+        <div id="caption">
+
+            <h3 id="title"></h3>
+
+        </div>
+
+    </div>
+
+    <div id="buttons">
+
+        <button onclick="previousImage()">
+
+            &lt;&lt;
+
+        </button>
+
+        <button onclick="nextImage()">
+
+            &gt;&gt;
+
+        </button>
+
+        <button onclick="stopSlider()">
+
+            Stop
+
+        </button>
+
+        <button onclick="playSlider()">
+
+            Play
+
+        </button>
+
+        <button onclick="changeSpeed(6000)">
+
+            1x 6s
+
+        </button>
+
+        <button onclick="changeSpeed(4000)">
+
+            2x 4s
+
+        </button>
+
+        <button onclick="changeSpeed(2000)">
+
+            3x 2s
+
+        </button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
